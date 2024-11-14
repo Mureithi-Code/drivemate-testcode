@@ -1,81 +1,80 @@
-/* CarCard.module.css */
 .cardItem {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin: 20px;
-    background-color: white;
-  }
-  
-  .cardImage {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .cardContent {
-    padding: 20px;
-  }
-  
-  .cardText {
-    margin-bottom: 20px;
-    color: black; /* Set text color to black for the car brand, description, and price */
-  }
-  
-  .cardText h3 {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: black; /* Ensure the car name (brand) is black */
-  }
-  
-  .cardText p {
-    font-size: 1em;
-    margin: 5px 0;
-    color: black; /* Set description and price text to black */
-  }
-  
-  .cardButtons {
-    display: flex;
-    flex-direction: column; /* Stack buttons vertically */
-    gap: 8px; /* Adds space between the buttons */
-  }
-  
-  .bookButton, .updateButton, .deleteButton {
-    padding: 6px 12px; /* Reduced padding to make buttons smaller */
-    font-size: 0.9em; /* Optional: reduce font size to match smaller buttons */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100%; /* Make buttons take full width */
-  }
-  
-  .bookButton {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  .bookButton:hover {
-    background-color: #45a049;
-  }
-  
-  .updateButton {
-    background-color: #ff9800;
-    color: white;
-  }
-  
-  .updateButton:hover {
-    background-color: #fb8c00;
-  }
-  
-  .deleteButton {
-    background-color: #f44336;
-    color: white;
-  }
-  
-  .deleteButton:hover {
-    background-color: #e53935;
-  }
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px;
+  background-color: white;
+}
+
+.cardImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 20px;
+}
+
+.cardText {
+  margin-bottom: 20px;
+  color: black; /* Set text color to black for the car brand, description, and price */
+}
+
+.cardText h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black; /* Ensure the car name (brand) is black */
+}
+
+.cardText p {
+  font-size: 1em;
+  margin: 5px 0;
+  color: black; /* Set description and price text to black */
+}
+
+.cardButtons {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 8px; /* Adds space between the buttons */
+}
+
+.bookButton, .updateButton, .deleteButton {
+  padding: 6px 12px; /* Reduced padding to make buttons smaller */
+  font-size: 0.9em; /* Optional: reduce font size to match smaller buttons */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Make buttons take full width */
+}
+
+.bookButton {
+  background-color: lightblue;
+  color: black;
+}
+
+.bookButton:hover {
+  background-color: lightblue;
+}
+
+.updateButton {
+  background-color: aquamarine;
+  color: black;
+}
+
+.updateButton:hover {
+  background-color: aquamarine;
+}
+
+.deleteButton {
+  background-color: rgb(73, 29, 29);
+  color: white;
+}
+
+.deleteButton:hover {
+  background-color: #e53935;
+}

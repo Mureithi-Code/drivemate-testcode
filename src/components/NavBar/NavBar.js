@@ -28,7 +28,7 @@ const Cars = ({ cars, title }) => {
                 <p>{car.description}</p>
                 <p><strong>Price:</strong> {car.price}</p>
                 <p><strong>Owner:</strong> {car.owner}</p>
-                <p><strong>Phone:</strong> {car.phoneNumber}</p>
+                <p><strong>Phone:</strong> {car.contact}</p>
                 <p><strong>Location:</strong> {car.location}</p>
                 
               </div>
