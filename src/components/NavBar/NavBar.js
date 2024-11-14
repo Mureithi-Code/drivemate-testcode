@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Link, Routes, Route, useNavigate } from 'react-router-dom'; // Updated to useNavigate for dynamic navigation
+import { Link, Routes, Route, } from 'react-router-dom'; // Updated to useNavigate for dynamic navigation
 import styles from './NavBar.module.css'; // Import the styles for the navbar
 
+// Home Component
 const Home = () => {
   return (
-    <div>
+    <div className={styles.homePage}>
       <h2>Pick Your Ride and Travel The World</h2>
     </div>
   );
@@ -22,13 +23,14 @@ const Cars = ({ cars, title }) => {
           {cars.map((car) => (
             <li key={car.id} className={styles.carCard}>
               <div className={styles.carInfo}>
+              <img src={car.image} alt={car.name} className={styles.carImage} />
                 <h3>{car.name}</h3>
                 <p>{car.description}</p>
                 <p><strong>Price:</strong> {car.price}</p>
                 <p><strong>Owner:</strong> {car.owner}</p>
                 <p><strong>Phone:</strong> {car.phoneNumber}</p>
                 <p><strong>Location:</strong> {car.location}</p>
-                <img src={car.image} alt={car.name} className={styles.carImage} />
+                
               </div>
             </li>
           ))}
@@ -38,9 +40,9 @@ const Cars = ({ cars, title }) => {
   );
 };
 
+// Navbar Component
 const Navbar = () => {
   const [cars, setCars] = useState([]);
-  const navigate = useNavigate(); // useNavigate for dynamic routing
 
   useEffect(() => {
     const fetchCars = async () => {

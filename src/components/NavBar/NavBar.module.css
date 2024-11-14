@@ -1,41 +1,39 @@
-/* Navbar.module.css */
+/* Styling for the Navbar */
 .navbar {
-    background-color:green;
-    padding: 10px 20px;
-    height: 80px;  /* Set a fixed height for the navbar */
-    display: flex;
-    justify-content: space-around; /* Optional, if you want space between items */
-    align-items: center;  /* Center align the content vertically */
-  
-  }
-  
-  .navLinks {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .navItem {
-    margin-right: 20px;
-  }
-  
-  .navLink {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .navLink:hover {
-    background-color: #555;
-  }
+  background-color: #2c6e49; /* Dark green for the navbar */
+  padding: 40px 20px;
+}
 
-  /* Styling for the Car Page (car listing page) */
+.navLinks {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin: 0 10px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.navLink:hover {
+  color: #f4f4f9;
+}
+
+/* Home Page */
+.homePage {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Styling for the CarPage (car listing page) */
 .carPage {
   padding: 30px;
   background-color: #f4f4f9;

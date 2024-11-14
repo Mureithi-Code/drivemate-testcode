@@ -124,7 +124,7 @@ function CarPage() {
   return (
     <div className={styles.carPage}>
       <Search onSearch={handleSearch} /> {/* Pass handleSearch as onSearch prop */}
-     
+      <NewCarForm onAddCar={handleAddCar} /> {/* Form for adding a new car */}
       <h2>Cars Available</h2>
 
       {/* Show error page if there's an error or no cars found after search */}
@@ -140,7 +140,7 @@ function CarPage() {
           onBookNow={handleBookNow}  // And this too
         />
       )}
-       <NewCarForm onAddCar={handleAddCar} /> {/* Form for adding a new car */}
+       
     </div>
   );
 }

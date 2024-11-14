@@ -1,65 +1,90 @@
-/* Footer.module.css */
 .footer {
-    padding: 20px;
-    background-color: #2b5fc0;
-    text-align: center;
+  padding: 30px;
+  background-color: #2b5fc0;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footerContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footerHeading {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #e0e0e0;
+}
+
+.developerProfiles {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.developerProfile {
+  background-color: #1dc534;
+  color: #ffffff;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.developerProfile:hover {
+  transform: translateY(-5px);
+  background-color: #17a82a;
+}
+
+.developerName {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.developerContribution {
+  font-size: 1rem;
+  color: #f0f0f0;
+}
+
+.developerDetails {
+  margin-top: 20px;
+  background-color: #334f91;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.developerDetails h4 {
+  font-size: 1.3rem;
+  color: #e0e0e0;
+  margin-bottom: 10px;
+}
+
+.developerDetails p {
+  color: #cfcfcf;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .developerProfile {
+    width: 100%;
   }
-  
-  .footerContent {
-    max-width: 1200px;
-    margin: 0 auto;
+
+  .developerProfiles {
+    gap: 10px;
   }
-  
+
   .footerHeading {
     font-size: 1.5rem;
-    margin-bottom: 20px;
   }
-  
-  .developerProfiles {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .developerProfile {
-    background-color: #1dc534;
-    padding: 15px;
-    margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .developerProfile:hover {
-    transform: translateY(-5px);
-  }
-  
-  .developerName {
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-  
-  .developerContribution {
-    font-size: 1rem;
-    color: #666;
-  }
-  
-  .developerDetails {
-    margin-top: 20px;
-    background-color: #23ecec;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .developerDetails h4 {
-    font-size: 1.3rem;
-    font-weight: bold;
-  }
-  
-  .developerDetails p {
-    font-size: 1rem;
-    color: #444;
-  }
-  
+}
