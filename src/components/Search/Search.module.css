@@ -1,0 +1,41 @@
+.searchContainer {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    margin: 20px 0; /* Add some space above and below */
+    gap: 10px; /* Space between the input and button */
+  }
+  
+  .searchContainer input {
+    width: 300px; /* Larger width for the input field */
+    padding: 10px; /* Add some padding for a more comfortable user experience */
+    font-size: 16px; /* Slightly larger font size */
+    border-radius: 25px; /* Make the corners oval-shaped */
+    border: 1px solid #ccc; /* Light gray border */
+    outline: none; /* Remove the default focus outline */
+    box-sizing: border-box; /* Include padding in width calculation */
+    transition: border-color 0.3s ease; /* Smooth transition on focus */
+  }
+  
+  .searchContainer input:focus {
+    border-color: green; /* Change border color on focus to indicate active input */
+  }
+  
+  .searchContainer button {
+    padding: 10px 15px; /* Some padding for the button */
+    font-size: 16px; /* Same font size as input for consistency */
+    background-color:darkgreen; /* Blue background for the button */
+    color: white; /* White text on the button */
+    border: none; /* Remove border */
+    border-radius: 25px; /* Make the button corners oval-shaped */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .searchContainer button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .searchContainer button:focus {
+    outline: none; /* Remove default outline when button is clicked */
+  }

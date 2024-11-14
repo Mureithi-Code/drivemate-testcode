@@ -1,0 +1,189 @@
+{
+  "user": {
+    "id": "1",
+    "name": "Mary Wanjiru",
+    "location": "Ngong",
+    "contact": "123456"
+  },
+  "cars": [
+    {
+      "id": "2",
+      "name": "Honda Civic",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUEUianv91nvXs2qyfYGBlY9gB1IB0fHWrv4OVXL1PRim1t2xbiDOJQCGxLLcxtOgVLBc&usqp=CAU",
+      "price": "63",
+      "ownerId": "1",
+      "description": "A reliable and efficient car for daily use.",
+      "booked": true,
+      "owner": "Mary Wanjiru",
+      "contact": "123456",
+      "location": "Ngong"
+    },
+    {
+      "id": "5",
+      "name": "BMW 3 Series",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKEWyZizsQdsHlHb6pM03Rt0OskfIXx5dGf0gUNAZOC4rVvgT4pBYTnb0T6ce8DCLnqp8&usqp=CAU",
+      "price": 90,
+      "ownerId": "1",
+      "description": "A luxury sedan offering comfort and performance.",
+      "owner": "Mary Wanjiru",
+      "contact": "123456",
+      "location": "Ngong",
+      "booked": false
+    },
+    {
+      "id": "6",
+      "name": "Tesla Model 3",
+      "image": "https://images.squarespace-cdn.com/content/v1/6151d38ea56f9d31cf76ec07/41f12365-951b-4c0c-b80b-f7b67ed09928/tesla+model+2+salary+sacrifice",
+      "price": 159.72,
+      "ownerId": "1",
+      "description": "A sleek electric car with impressive tech features.",
+      "owner": "Mary Wanjiru",
+      "contact": "123456",
+      "location": "Ngong",
+      "booked": false
+    },
+    {
+      "id": "3",
+      "name": "Ford Mustang",
+      "image": "https://www.ford.com/is/image/content/dam/brand_ford/en_us/brand/cars/mustang/brand_mustang/dm/20_FRD_MST_40830.tif?croppathe=1_3x2&wid=1440",
+      "price": "72",
+      "ownerId": "2",
+      "description": "A powerful muscle car for thrilling rides.",
+      "owner": "James Mwangi",
+      "contact": "789012",
+      "location": "Nairobi",
+      "booked": true
+    },
+    {
+      "id": "4",
+      "name": "Chevrolet Camaro",
+      "image": "https://di-uploads-pod9.dealerinspire.com/blossomchevy/uploads/2020/04/2020-Chevy-Camaro-Indianapolis-IN-white.jpg",
+      "price": 75,
+      "ownerId": "3",
+      "description": "A stylish and bold car for those who love adventure.",
+      "owner": "Lucy Akinyi",
+      "contact": "234567",
+      "location": "Kisumu",
+      "booked": true
+    },
+    {
+      "id": "7",
+      "name": "Volkswagen Golf",
+      "image": "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/144689/taigun-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80&q=80",
+      "price": "45",
+      "ownerId": "4",
+      "description": "A compact and practical car with great fuel efficiency.",
+      "owner": "Samuel Otieno",
+      "contact": "345678",
+      "location": "Mombasa",
+      "booked": false
+    },
+    {
+      "id": "8",
+      "name": "Nissan Altima",
+      "image": "https://www.nissanusa.com/content/dam/Nissan/us/vehicles/altima/2024/overview/2024-nissan-altima-in-red.jpg",
+      "price": "40",
+      "ownerId": "5",
+      "description": "A reliable and comfortable midsize sedan.",
+      "owner": "Mary Njeri",
+      "contact": "456789",
+      "location": "Nakuru",
+      "booked": false
+    },
+    {
+      "id": "9",
+      "name": "Mercedes-Benz C-Class",
+      "image": "https://www.mercedes-benz.com.sg/content/dam/hq/passengercars/cars/bodytypes-landingpages/compact-cars/modeloverview/07-2023/images/mercedes-benz-compact-cars-modeloverview-692x392-07-2023.png",
+      "price": 120,
+      "ownerId": "6",
+      "description": "A luxury sedan with a smooth ride and advanced features.",
+      "owner": "Michael Kariuki",
+      "contact": "567890",
+      "location": "Thika",
+      "booked": false
+    },
+    {
+      "id": "10",
+      "name": "Toyota Corolla",
+      "image": "https://i0.wp.com/bestsellingcarsblog.com/wp-content/uploads/2010/12/Toyota-Corolla-Kenya-2011.jpg?fit=600%2C377&ssl=1",
+      "price": "35",
+      "ownerId": "7",
+      "description": "An affordable and dependable compact car.",
+      "owner": "David Kimani",
+      "contact": "678901",
+      "location": "Eldoret",
+      "booked": false
+    },
+    {
+      "id": "11",
+      "name": "Audi A4",
+      "image": "https://www.topgear.com/sites/default/files/cars-car/image/2021/03/audiuk0002282120audi20a420saloon.jpg",
+      "price": 110,
+      "ownerId": "8",
+      "description": "A luxury sedan with refined styling and advanced technology.",
+      "owner": "Eva Wambui",
+      "contact": "789345",
+      "location": "Nyeri",
+      "booked": false
+    },
+    {
+      "id": "12",
+      "name": "Porsche 911",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2025-porsche-911-carrera-gts-101-668d444c83859.jpg?crop=0.616xw:0.518xh;0.159xw,0.304xh&resize=2048:*",
+      "price": 200,
+      "ownerId": "9",
+      "description": "A high-performance sports car for those who love speed.",
+      "owner": "John Mwangi",
+      "contact": "890123",
+      "location": "Kisii",
+      "booked": false
+    },
+    {
+      "id": "13",
+      "name": "Range Rover Evoque",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/2019_Land_Rover_Range_Rover_Evoque_R-Dynamic_2.0.jpg/640px-2019_Land_Rover_Range_Rover_Evoque_R-Dynamic_2.0.jpg",
+      "price": 140,
+      "ownerId": "10",
+      "description": "A stylish SUV with off-road capabilities and luxury interior.",
+      "owner": "Faith Mutiso",
+      "contact": "901234",
+      "location": "Kajiado",
+      "booked": false
+    },
+    {
+      "id": "14",
+      "name": "Mazda CX-5",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2022-mazda-cx-5-2p5-turbo-signature-123-1657559083.jpg?crop=0.805xw:0.680xh;0.0977xw,0.252xh&resize=1200:*",
+      "price": 60,
+      "ownerId": "11",
+      "description": "A compact SUV with excellent handling and a comfortable interior.",
+      "owner": "Kwame Owusu",
+      "contact": "123654",
+      "location": "Kericho",
+      "booked": false
+    },
+    {
+      "id": "15",
+      "name": "Jeep Wrangler",
+      "image": "https://media.drive.com.au/obj/tx_q:50,rs:auto:1920:1080:1/caradvice/private/n9jlqm4lv86kzdffizgy",
+      "price": 85,
+      "ownerId": "12",
+      "description": "An iconic SUV built for adventure and off-road performance.",
+      "owner": "Amina Juma",
+      "contact": "321432",
+      "location": "Isiolo",
+      "booked": false
+    },
+    {
+      "id": "6a63",
+      "name": "Mr Cat",
+      "price": "30",
+      "description": "Drive",
+      "image": "https://media.istockphoto.com/id/1316991568/photo/a-gray-scottish-fold-cat-with-yellow-eyes-sits-in-the-car.jpg?s=1024x1024&w=is&k=20&c=4uySU589hRXumQVVtBgLwowMuapjSQBNrrsIz8PxnZo=",
+      "owner": "Meow",
+      "contact": "456123",
+      "location": "Mirema",
+      "booked": true
+    }
+  ]
+}

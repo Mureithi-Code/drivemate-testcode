@@ -1,0 +1,65 @@
+/* Footer.module.css */
+.footer {
+    padding: 20px;
+    background-color: #2b5fc0;
+    text-align: center;
+  }
+  
+  .footerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footerHeading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .developerProfiles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .developerProfile {
+    background-color: #1dc534;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .developerProfile:hover {
+    transform: translateY(-5px);
+  }
+  
+  .developerName {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .developerContribution {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .developerDetails {
+    margin-top: 20px;
+    background-color: #23ecec;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .developerDetails h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .developerDetails p {
+    font-size: 1rem;
+    color: #444;
+  }
+  
