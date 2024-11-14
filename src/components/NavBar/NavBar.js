@@ -13,21 +13,23 @@ const Home = () => {
 // Cars component (which will display the list of cars based on the status passed in props)
 const Cars = ({ cars, title }) => {
   return (
-    <div>
+    <div className={styles.carPage}>
       <h2>{title}</h2>
       {cars.length === 0 ? (
         <p>No cars available</p>
       ) : (
-        <ul>
+        <ul className={styles.carList}>
           {cars.map((car) => (
-            <li key={car.id}>
-              <h3>{car.name}</h3>
-              <p>{car.description}</p>
-              <p>{car.price}</p>
-              <p>Owner: {car.owner}</p>
-              <p>Phone: {car.phoneNumber}</p>
-              <p>Location: {car.location}</p>
-              <img src={car.image} alt={car.name} width="100" />
+            <li key={car.id} className={styles.carCard}>
+              <div className={styles.carInfo}>
+                <h3>{car.name}</h3>
+                <p>{car.description}</p>
+                <p><strong>Price:</strong> {car.price}</p>
+                <p><strong>Owner:</strong> {car.owner}</p>
+                <p><strong>Phone:</strong> {car.phoneNumber}</p>
+                <p><strong>Location:</strong> {car.location}</p>
+                <img src={car.image} alt={car.name} className={styles.carImage} />
+              </div>
             </li>
           ))}
         </ul>

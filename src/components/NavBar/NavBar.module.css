@@ -34,3 +34,82 @@
   .navLink:hover {
     background-color: #555;
   }
+
+  /* Styling for the Car Page (car listing page) */
+.carPage {
+  padding: 30px;
+  background-color: #f4f4f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: red; /* Default text color */
+}
+
+/* Car Listing Grid */
+.carList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Flexible grid columns */
+  gap: 20px; /* Space between the cards */
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Car Card Styling */
+.carCard {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  text-align: center;
+  transition: transform 0.3s ease; /* Add hover effect */
+}
+
+.carCard:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.carCard h3 {
+  font-size: 1.6rem;
+  color: #2c6e49; /* Dark green color */
+  margin-bottom: 10px;
+}
+
+.carCard p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+}
+
+.carImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  .carPage {
+    padding: 20px;
+  }
+
+  .carList {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Smaller columns on mobile */
+  }
+
+  .carCard h3 {
+    font-size: 1.4rem; /* Smaller heading size on mobile */
+  }
+
+  .carCard p {
+    font-size: 1rem; /* Adjust paragraph size for mobile */
+  }
+}
+
+/* Heading for Available and Booked Cars */
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c6e49;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
